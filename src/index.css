@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Acumin-RPro.otf') format('otf'),
+    url('./fonts/Acumin-RPro.otf') format('otf');
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Acumin Pro', sans-serif;
+}

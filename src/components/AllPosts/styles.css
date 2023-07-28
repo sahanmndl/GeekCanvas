@@ -1,0 +1,10 @@
+.bg {
+    background: radial-gradient(ellipse at center,
+        /*rgba(255, 194, 85, 0.6),*/
+        /*rgba(255, 99, 85, 0.8),*/
+        rgb(33, 33, 38),
+        rgb(27, 27, 31),
+        rgba(25, 27, 32)
+    );
+    backdrop-filter: blur(10px);
+}

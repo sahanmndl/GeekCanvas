@@ -7,6 +7,7 @@ import {Box, Grid, Typography} from "@mui/material";
 import Colors from "../../utils/Colors";
 import AllTimeTrendingBlogs from "../../components/TrendingBlogs/AllTime/AllTimeTrendingBlogs";
 import DailyTrendingBlogs from "../../components/TrendingBlogs/Daily/DailyTrendingBlogs";
+import SearchBar from "../../components/Search/SearchBar";
 
 const HomePage = () => {
     return (
@@ -23,15 +24,8 @@ const HomePage = () => {
                     <h1 style={{fontSize: '48px', fontWeight: '700', color: 'white'}}>
                         GeekCanvas
                     </h1>
-                    <Typography
-                        sx={{color: Colors.GREY}}
-                        gutterBottom
-                        variant="subtitle"
-                        component="div"
-                    >
-                        Exploring the Cutting Edge: Your Gateway to AI, ML, Programming and Development Insights.
-                    </Typography>
                 </Box>
+                <SearchBar/>
                 <Grid
                     container
                     spacing={2.4}

@@ -4,10 +4,26 @@ import Tags from "../Tags/Tags";
 import {formatDate} from "../../utils/HelperFunctions";
 import "./styles.css";
 import Colors from "../../utils/Colors";
+import axios from "axios";
+import {BASE_API_URL} from "../../utils/Constants";
 
 const BlogCard = ({item, borderRadius}) => {
 
     const {_id, title, metaDesc, pic, author, tags, createdAt} = item
+
+    const updateClickCount = async () => {
+        try {
+            const requestBody = {
+                id: _id
+            }
+
+            await axios.post(`${BASE_API_URL}/blogs/updateBlogClickCount`, requestBody)
+                .then((response) => console.log(response.data))
+                .catch((e) => console.error(e))
+        } catch (e) {
+            console.error(e)
+        }
+    }
 
     return (
         <Card
@@ -25,7 +41,10 @@ const BlogCard = ({item, borderRadius}) => {
                 borderRadius: borderRadius,
                 borderWidth: 0
             }}
-            onClick={() => window.open(`/blog/open-blog?id=${_id}`, '_blank')}
+            onClick={() => {
+                window.open(`/blog/open-blog?id=${_id}`, '_blank')
+                updateClickCount()
+            }}
         >
             <CardMedia
                 sx={{height: '150px', borderTopLeftRadius: '10px', borderTopRightRadius: '10px'}}

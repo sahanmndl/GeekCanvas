@@ -10,6 +10,7 @@ import Footer from "../../components/Footer/Footer";
 import BottomBarBlogs from "../../components/BottomBarBlogs/BottomBarBlogs";
 import "./styles.css";
 import {Helmet} from "react-helmet";
+import CommentSection from "../../components/CommentSection/CommentSection";
 
 const BlogPage = () => {
 
@@ -62,6 +63,7 @@ const BlogPage = () => {
                             <Grid item xs={12} md={3} sx={{marginTop: '20px'}}>
                                 <RightBarBlogs/>
                             </Grid>
+                            <CommentSection blogId={blog._id} />
                         </Grid>
                         <BottomBarBlogs/>
                     </>

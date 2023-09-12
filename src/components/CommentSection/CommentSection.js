@@ -62,6 +62,14 @@ const CommentSection = ({blogId}) => {
             <div style={{display: 'flex', flexDirection: 'column', marginTop: '20px'}}>
                 <TextField
                     style={{width: '100%'}}
+                    sx={{
+                        '& .MuiOutlinedInput-root': {
+                            border: '1px solid #909090',
+                        },
+                        '& .MuiOutlinedInput-notchedOutline': {
+                            border: 'none'
+                        }
+                    }}
                     label="Comment..."
                     variant="outlined"
                     multiline={true}

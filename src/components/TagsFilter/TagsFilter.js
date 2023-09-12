@@ -7,11 +7,12 @@ import logo from "../../assets/logo.png";
 const TagsFilter = () => {
 
     const allTags = [
-        'AI',
-        'ML',
-        'Web Dev',
-        'Mobile Dev',
-        'DSA',
+        'Artificial Intelligence',
+        'Machine Learning',
+        'Web Development',
+        'Mobile Development',
+        'Data Structures',
+        'Algorithms',
         'Competitive Programming'
     ];
 
@@ -27,8 +28,8 @@ const TagsFilter = () => {
             <Box sx={{
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: 'space-between',
-                flexDirection: 'horizontal'
+                justifyContent: 'center',
+                flexDirection: 'column'
             }}>
                 <a href="/" onClick={(e) => {
                     e.preventDefault();
@@ -36,8 +37,8 @@ const TagsFilter = () => {
                 }}>
                     <img
                         style={{
-                            height: '60px',
-                            width: '60px',
+                            height: '40px',
+                            width: '40px',
                             alignItems: 'center',
                             justifyContent: 'center',
                             display: 'flex'
@@ -54,7 +55,8 @@ const TagsFilter = () => {
                         padding: '10px',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        gap: '20px'
+                        flexDirection: 'horizontal',
+                        gap: '24px'
                     }}
                 >
                     {allTags.map((tag, index) => {

@@ -39,6 +39,16 @@ const RightBarBlogs = () => {
 
     return (
         <>
+            <Typography component="div" sx={{
+                fontWeight: '500',
+                fontSize: '24px',
+                color: 'white',
+                marginBottom: '10px',
+                marginLeft: '8px',
+                fontFamily: "Calibri, sans-serif"
+            }}>
+                You might also like
+            </Typography>
             {selectedBlogs.length > 0 ? (
                 selectedBlogs.map((blog) => (
                     <Card

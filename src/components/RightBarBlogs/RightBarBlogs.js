@@ -42,7 +42,7 @@ const RightBarBlogs = () => {
             <Typography component="div" sx={{
                 fontWeight: '500',
                 fontSize: '24px',
-                color: 'white',
+                color: 'black',
                 marginBottom: '10px',
                 marginLeft: '8px',
                 fontFamily: "Calibri, sans-serif"
@@ -78,7 +78,7 @@ const RightBarBlogs = () => {
                         <CardContent>
                             <Typography
                                 sx={{
-                                    color: 'white',
+                                    color: 'black',
                                     fontWeight: '500',
                                     display: '-webkit-box',
                                     overflow: 'hidden',

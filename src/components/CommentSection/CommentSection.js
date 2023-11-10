@@ -83,13 +83,13 @@ const CommentSection = ({blogId}) => {
                         placeholder: 'Comment...',
                         inputProps: {
                             style: {
-                                color: 'whitesmoke',
+                                color: 'black',
                             },
                         },
                     }}
                     InputLabelProps={{
                         style: {
-                            color: 'whitesmoke'
+                            color: 'black'
                         },
                     }}
                 />

@@ -54,7 +54,7 @@ const BlogCard = ({item, borderRadius}) => {
             <CardContent>
                 <Typography
                     sx={{
-                        color: 'white',
+                        color: 'black',
                         display: '-webkit-box',
                         overflow: 'hidden',
                         WebkitBoxOrient: 'vertical',
@@ -75,7 +75,7 @@ const BlogCard = ({item, borderRadius}) => {
                         marginTop: '8px'
                     }}
                     variant="body2"
-                    color='#BDBDBD'
+                    color={Colors.DARK}
                 >
                     {metaDesc}
                 </Typography>

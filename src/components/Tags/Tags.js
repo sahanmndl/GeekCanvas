@@ -11,7 +11,7 @@ const Tags = ({title}) => {
             style={{
                 borderRadius: '8px',
                 borderWidth: 0,
-                backgroundColor: Colors.PRIMARY_ORANGE,
+                backgroundColor: Colors.PRIMARY_BLUE,
                 color: 'white',
                 fontSize: '13px',
                 fontWeight: '600',

@@ -13,7 +13,7 @@ const BlogDetails = ({blog}) => {
                 gutterBottom
                 variant="h3"
                 component="div"
-                sx={{fontWeight: '700', color: 'white'}}
+                sx={{fontWeight: '700', color: 'black'}}
             >
                 {blog.title}
             </Typography>
@@ -22,7 +22,7 @@ const BlogDetails = ({blog}) => {
                 variant="body2"
                 color="text.secondary"
                 component="div"
-                sx={{marginTop: '4px', color: 'whitesmoke'}}
+                sx={{marginTop: '4px', color: 'black'}}
             >
                 {date}
             </Typography>
@@ -49,14 +49,14 @@ const BlogDetails = ({blog}) => {
             <Typography
                 gutterBottom
                 color="text.primary"
-                sx={{marginTop: '20px', width: '85%', fontSize: '17.5px', color: 'white'}}
+                sx={{marginTop: '20px', width: '85%', fontSize: '17.5px', color: 'black'}}
             >
                 <span dangerouslySetInnerHTML={{__html: blog.content}}/>
             </Typography>
             <Typography
                 gutterBottom
                 color="text.primary"
-                sx={{marginTop: '10px', color: 'whitesmoke'}}
+                sx={{marginTop: '10px', color: 'grey'}}
             >
                 Blog written by
             </Typography>
@@ -70,7 +70,7 @@ const BlogDetails = ({blog}) => {
                     gutterBottom
                     color="text.secondary"
                     component="div"
-                    sx={{marginLeft: '10px', color: 'white'}}
+                    sx={{marginLeft: '10px', color: 'black'}}
                 >
                     {blog.author}
                 </Typography>

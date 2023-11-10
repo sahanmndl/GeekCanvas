@@ -71,10 +71,7 @@ const AllBlogsPage = () => {
 
     return (
         <>
-            <div
-                className={"db-main-bg"}
-                style={{backgroundColor: 'white', display: 'flex', flexDirection: 'column', minHeight: '100vh'}}
-            >
+            <div style={{backgroundColor: 'white', display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
                 <Helmet>
                     <meta charSet="utf-8"/>
                     <title>All Blogs</title>

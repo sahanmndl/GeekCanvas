@@ -14,8 +14,6 @@ function App() {
                 <Route path="/blog/:id" element={<BlogPage/>}/>
                 <Route path="/blogs/tagged/:tag" element={<TaggedBlogsPage/>}/>
                 <Route path="/blogs/allBlogs/" element={<AllBlogsPage/>}/>
-                <Route path="/blogs/authors/" element={<Authors/>}/>
-                <Route path="/blogs/about-us/" element={<AboutUs/>}/>
             </Routes>
         </Router>
     );

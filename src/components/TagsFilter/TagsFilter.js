@@ -68,7 +68,7 @@ const TagsFilter = () => {
                                 key={index}
                                 component="button"
                                 variant="body1"
-                                color={isSelected ? Colors.PRIMARY_ORANGE : 'white'}
+                                color={isSelected ? Colors.PRIMARY_BLUE : 'black'}
                                 sx={{fontSize: 14, fontWeight: '500'}}
                                 underline="none"
                                 onClick={() => handleTagClick(tag)}

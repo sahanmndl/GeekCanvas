@@ -30,7 +30,7 @@ const AuthorCard = ({item}) => {
             <CardContent>
                 <Typography
                     sx={{
-                        color: 'white',
+                        color: 'black',
                         display: '-webkit-box',
                         overflow: 'hidden',
                         WebkitBoxOrient: 'vertical',

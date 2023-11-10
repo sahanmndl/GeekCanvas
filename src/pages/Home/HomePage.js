@@ -12,7 +12,7 @@ import SearchBar from "../../components/Search/SearchBar";
 const HomePage = () => {
     return (
         <>
-            <div className={"db-main-bg"} style={{minHeight: '100vh'}}>
+            <div style={{minHeight: '100vh', backgroundColor: 'white'}}>
                 <TagsFilter/>
                 <Box style={{
                     display: 'flex',
@@ -21,7 +21,7 @@ const HomePage = () => {
                     flexDirection: 'column',
                     marginTop: '30px'
                 }}>
-                    <h1 style={{fontSize: '48px', fontWeight: '700', color: 'white'}}>
+                    <h1 style={{fontSize: '48px', fontWeight: '700', color: 'black'}}>
                         GeekCanvas
                     </h1>
                 </Box>

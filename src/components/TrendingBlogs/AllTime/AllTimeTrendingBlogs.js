@@ -49,7 +49,7 @@ const AllTimeTrendingBlogs = () => {
             <Typography component="div" sx={{
                 fontWeight: '700',
                 fontSize: '40px',
-                color: 'white',
+                color: 'black',
                 fontFamily: "Calibri, sans-serif"
             }}>
                 Top Blogs
@@ -77,7 +77,7 @@ const AllTimeTrendingBlogs = () => {
                         <CardContent>
                             <Typography
                                 sx={{
-                                    color: 'white',
+                                    color: 'black',
                                     fontWeight: '500',
                                     display: '-webkit-box',
                                     overflow: 'hidden',
@@ -100,8 +100,7 @@ const AllTimeTrendingBlogs = () => {
                                 ))}
                             </Box>
                         </CardContent>
-                        <Divider
-                            sx={{backgroundColor: '#8c8c8c', height: '1px', marginLeft: '8px', marginRight: '8px'}}/>
+                        <Divider sx={{backgroundColor: '#8c8c8c', height: '1px', marginLeft: '8px', marginRight: '8px'}}/>
                     </Card>
                 ))
             ) : (

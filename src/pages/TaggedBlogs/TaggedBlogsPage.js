@@ -73,10 +73,7 @@ const TaggedBlogsPage = () => {
 
     return (
         <>
-            <div
-                className={"db-main-bg"}
-                style={{backgroundColor: 'white', display: 'flex', flexDirection: 'column', minHeight: '100vh'}}
-            >
+            <div style={{backgroundColor: 'white', display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
                 <Helmet>
                     <meta charSet="utf-8"/>
                     <title>{tag}</title>
@@ -101,7 +98,7 @@ const TaggedBlogsPage = () => {
                                 key={index}
                                 width={`calc(100% / ${cardsPerRow + 1})`}
                                 maxWidth={`calc(100% / ${cardsPerRow + 1})`}
-                                maxHeight={'380px'}
+                                maxHeight={'400px'}
                                 flexShrink={0}
                             >
                                 <BlogCard item={item} borderRadius={'8px'}/>

@@ -48,7 +48,7 @@ const DailyTrendingBlogs = () => {
             <Typography component="div" sx={{
                 fontWeight: '700',
                 fontSize: '40px',
-                color: 'white',
+                color: 'black',
                 fontFamily: "Calibri, sans-serif"
             }}>
                 Trending Today

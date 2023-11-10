@@ -17,7 +17,7 @@ const CommentItem = ({name, comment}) => {
                 gutterBottom
                 variant="subtitle"
                 component="div"
-                sx={{color: 'whitesmoke'}}
+                sx={{color: 'black'}}
             >
                 {comment}
             </Typography>

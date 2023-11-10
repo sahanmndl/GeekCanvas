@@ -35,7 +35,7 @@ const BlogPage = () => {
 
     return (
         <>
-            <div className={"db-main-bg"} style={{minHeight: '100vh'}}>
+            <div style={{minHeight: '100vh', backgroundColor: 'white'}}>
                 <TagsFilter/>
                 {blog === null ? (
                     <h3>Loading...</h3>
